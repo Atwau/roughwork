@@ -1,13 +1,14 @@
-The purpose of this folder is to work as a rough work folder
+# The purpose of this folder is to work as a rough work folder
 
 For testing all the software which I download
 
-For example
-- I installed fastqc using sudo apt install fastqc
-- now I want to download sequence data from SRA to test it
-- so I will download files inside the roughwork folder
-- put into folder called testfastqc
-- then perform the test I want
+List of Software
+1. fastqc
+2. sra-toolkit
 
-Thank you
-Dr. Atwau Pius
+# Best practices
+
+## .gitignore file
+It is very important to ignore tracking very large sequence data files
+This is required by git to save space
+git is primarily meant to track scripts, not data files
