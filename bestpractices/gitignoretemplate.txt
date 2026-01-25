@@ -1,0 +1,34 @@
+# For any bioinformatics analysis and tracking using git,
+# its good practice to leave out large files
+
+# This gitignore template serves as a starting point
+
+# Raw sequencing data
+*.sra
+*.fastq
+*.fastq.gz
+
+# Reference genomes
+NC_*
+GPC_*
+
+# Alignment & analysis outputs
+*.sam
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+
+# QC outputs
+*_fastqc/
+*.html
+*.zip
+
+# Data folders
+data/
+testfastqc/
+
+# OS & editor junk
+.DS_Store
+*.swp
+
