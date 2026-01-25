@@ -1,0 +1,17 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# FastQC outputs
+*_fastqc.zip
+
+# Large bioinformatics files
+*.bam
+*.sam
+*.vcf
+
+# Ignoring entire folder
+SRR390728/
