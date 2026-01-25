@@ -1,8 +1,10 @@
-# The purpose of this folder is to work as a rough work folder
+# Rough Work Repository
+The purpose of this repository is to serve as a rough work repository
+The scope includes
+1. Testing the functionality of the different software I install
+2. developing modular shell scripts which can be compiled into pipelines
 
-For testing all the software which I download
-
-List of Software
+# List of Software
 1. fastqc
 2. sra-toolkit
 
