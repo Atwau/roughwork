@@ -4,6 +4,13 @@ The scope includes
 1. Testing the functionality of the different software I install
 2. developing modular shell scripts which can be compiled into pipelines
 
+Each folder is a bioinformatics tool deep dive. For example testfastqc is a folder dedicated to
+dissecting what fastqc tool does, shell script snippets for installing, testing and running fastqc
+
+Each tool is described in detailed inside the readme files in each tool's folder
+
+I hope you find this resources handy and useful. I believe learning is best done in small chunks
+
 # List of Software (in chronological order)
 1. sra-toolkit (for downloading seq data)
 2. fastqc (for checking base read quality)
