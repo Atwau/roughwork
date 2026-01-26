@@ -4,9 +4,10 @@ The scope includes
 1. Testing the functionality of the different software I install
 2. developing modular shell scripts which can be compiled into pipelines
 
-# List of Software
-1. fastqc
-2. sra-toolkit
+# List of Software (in chronological order)
+1. sra-toolkit (for downloading seq data)
+2. fastqc (for checking base read quality)
+3. trimmomatic (for trimming off adapters and poor quality bases)
 
 ## Step by step pipeline activities
 ### preprocessing
