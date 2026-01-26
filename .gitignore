@@ -1,4 +1,4 @@
-# Sequencing data
+# Raw Sequencing data
 *.fastq
 *.fastq.gz
 *.fq
@@ -7,11 +7,23 @@
 
 # FastQC outputs
 *_fastqc.zip
+*.html
+*.zip
 
-# Large bioinformatics files
-*.bam
+# Reference genomes
+NC_*
+GPC_*
+
+# Alignment & analysis outputs
 *.sam
+*.bam
+*.bai
 *.vcf
+*.vcf.gz
 
-# Ignoring entire folder
-SRR390728/
+# Data folders
+data/
+
+# OS & editor junk
+.DS_Store
+*.swp
