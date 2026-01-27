@@ -52,7 +52,7 @@ Each tool is documented in detail within its **own `README.md` file**.
 ### 2. Downstream Analysis  
 Choose a pipeline based on the **type of sequencing data**
 
----
+
 
 ## A. DNA-seq / Whole Genome / Exome
 
