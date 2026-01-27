@@ -103,11 +103,11 @@ Interpret biological significance.
 
 ### Step 1: Read Alignment or Pseudo-alignment
 
-**Alignment-based:**
+**Alignment-based (Reads are fully aligned base-by-base to a reference genome or transcriptome):**
 - STAR
 - HISAT2
 
-**Alignment-free (faster):**
+**Alignment-free; faster - (Reads are not aligned base-by-base):**
 - Salmon
 - Kallisto
 
