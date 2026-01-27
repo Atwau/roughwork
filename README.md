@@ -47,7 +47,7 @@ Each tool is documented in detail within its **own `README.md` file**.
 - Most RNA-seq data uses a small, well-defined set (e.g. Illumina TruSeq)
 - This prevents users from repeatedly recreating the same adapter files
 
----
+
 
 ### 2. Downstream Analysis  
 Choose a pipeline based on the **type of sequencing data**
