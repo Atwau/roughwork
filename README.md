@@ -22,7 +22,7 @@ Each tool is documented in detail within its **own `README.md` file**.
 
 > Learning is most effective when done in **small, focused chunks**.
 
----
+
 
 ## Software Stack (Chronological Order)
 1. **sra-toolkit** — Download sequencing data
@@ -65,7 +65,7 @@ Map reads to a reference genome.
 
 **Output:** SAM → BAM
 
----
+
 
 ### Step 2: Post-alignment Processing
 Prepare alignments for downstream analysis.
@@ -76,7 +76,7 @@ Prepare alignments for downstream analysis.
 - Mark/remove duplicates (`Picard MarkDuplicates`)
 - Index BAM (`samtools index`)
 
----
+
 
 ### Step 3: Variant Calling
 Identify SNPs and indels.
@@ -87,7 +87,7 @@ Identify SNPs and indels.
 
 **Output:** VCF
 
----
+
 
 ### Step 4: Variant Annotation
 Interpret biological significance.
@@ -97,7 +97,7 @@ Interpret biological significance.
 - SnpEff
 - VEP
 
----
+
 
 ## B. RNA-seq
 
@@ -111,7 +111,7 @@ Interpret biological significance.
 - Salmon
 - Kallisto
 
----
+
 
 ### Step 2: Quantification
 Count reads per gene or transcript.
@@ -121,7 +121,7 @@ Count reads per gene or transcript.
 - HTSeq-count
 - Salmon / Kallisto (native quantification)
 
----
+
 
 ### Step 3: Differential Expression Analysis
 Statistical comparison between conditions.
@@ -131,7 +131,7 @@ Statistical comparison between conditions.
 - edgeR
 - limma
 
----
+
 
 ### Step 4: Functional Analysis
 Biological interpretation of results.
@@ -140,7 +140,7 @@ Biological interpretation of results.
 - Gene Ontology (GO) enrichment
 - Pathway analysis (KEGG, Reactome)
 
----
+
 
 ## C. 16S rRNA / Metagenomics
 
