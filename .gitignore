@@ -4,6 +4,13 @@
 *.fq
 *.fq.gz
 *.sra
+*.fasta
+*.amb
+*.ann
+*.bwt
+*.fai
+*.pac
+*.sa
 
 # FastQC outputs
 *_fastqc.zip
