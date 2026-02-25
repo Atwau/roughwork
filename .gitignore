@@ -20,6 +20,7 @@ GPC_*
 *.bai
 *.vcf
 *.vcf.gz
+*.bcf
 
 # Data folders
 data/
