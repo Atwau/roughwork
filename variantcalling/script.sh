@@ -48,8 +48,24 @@ samtools view -S -b output.sam > output.bam
 
 # after we have to sort the bam file
 samtools sort -o output.sorted.bam output.bam
+# you can go ahead to create indexed bam file (.bai) which can be 
+# visualized using IGV Tool
+samtools index output.sorted.bam 
 
 # we can now generate the mapping statistics to know how well the genome
 # was mapped to the reference
 # for this we se samtools still
 samtools flagstats output.sorted.bam
+
+# next we do the actual variant calling using bcf mpileup tool
+# generates coverage information of the bases we have mapped to reference
+
+bcftools mpileup -O b -o raw.bcf -f refgenome/agy99refgenome.fasta --threads 8 -q 20 -Q 30 output.sorted.bam
+
+# now callin the variants
+bcftools call --ploidy 1 -m -v -o variants.raw.vcf raw.bcf
+
+#=====================================================================
+
+# using IGV to viualize variants
+# https://www.youtube.com/watch?v=E_G8z_2gTYM&t=10s 
