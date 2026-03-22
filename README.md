@@ -101,6 +101,8 @@ Interpret biological significance.
 
 ## B. RNA-seq
 
+[Illumina RNA-Seq Library Preparation](https://www.youtube.com/watch?v=M7K801nQZcg&t=1504s)
+
 ### Step 1: Read Alignment or Pseudo-alignment
 
 **Alignment-based (Reads are fully aligned base-by-base to a reference genome or transcriptome):**
