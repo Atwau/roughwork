@@ -7,7 +7,15 @@
 # Raw data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203159
 
 #-------------------------------------------------------------------------------
+# Install the manager for Bioconductor packages
+ if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
+# Use BiocManager to install DESeq2
+BiocManager::install("DESeq2")
+BiocManager::install("pheatmap")
+BiocManager::install("RColorBrewer")
+install.packages("tidyverse")
 
 # 1. Load necessary libraries
 library(DESeq2)
