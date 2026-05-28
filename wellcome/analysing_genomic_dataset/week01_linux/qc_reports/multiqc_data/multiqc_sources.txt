@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	ERR5743893_1	/home/atwau/projects/wellcome/analysing_genomic_dataset/week01_linux/qc_reports/ERR5743893_1_fastqc.zip
+FastQC	all_sections	ERR5743893_2	/home/atwau/projects/wellcome/analysing_genomic_dataset/week01_linux/qc_reports/ERR5743893_2_fastqc.zip

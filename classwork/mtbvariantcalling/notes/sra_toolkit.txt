@@ -1,0 +1,54 @@
+================================================================================
+SRA TOOLKIT: CORE COMMAND-LINE TOOLS
+================================================================================
+
+1. DATA DOWNLOADING
+--------------------------------------------------------------------------------
+* prefetch
+  Downloads SRA data files (.sra) and their associated reference sequences to 
+  the local cache prior to extraction.
+
+
+2. DATA EXTRACTION AND CONVERSION
+--------------------------------------------------------------------------------
+* fasterq-dump
+  Extracts sequence data from SRA files and converts it into FASTQ format. 
+  This is the recommended tool as it utilizes multithreading for optimized speed.
+
+* fastq-dump
+  The legacy tool for extracting FASTQ files. Slower than fasterq-dump, but 
+  maintained for specific legacy pipeline requirements.
+
+* sam-dump
+  Extracts sequence alignments from SRA files and outputs them in Sequence 
+  Alignment/Map (SAM) format.
+
+* sra-pileup
+  Generates a pileup format output (displaying base-pair information at each 
+  chromosomal position) directly from aligned SRA data.
+
+
+3. DATA INSPECTION AND STATISTICS
+--------------------------------------------------------------------------------
+* sra-stat
+  Analyzes SRA files to output summary statistics, including total read counts, 
+  base counts, and quality score distributions.
+
+* vdb-dump
+  A lower-level tool used to inspect and extract raw data from specific columns 
+  within the Virtual Database (VDB) format underlying SRA files.
+
+* align-info
+  Outputs alignment summary information from SRA databases containing aligned 
+  reads.
+
+
+4. CONFIGURATION AND UTILITY
+--------------------------------------------------------------------------------
+* vdb-config
+  Configures toolkit operational parameters, including local cache directories, 
+  network settings, and proxies, via interactive text or command-line options.
+
+* vdb-validate
+  Verifies the structural integrity of downloaded SRA files and their 
+  dependencies to detect corruption.

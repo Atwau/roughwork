@@ -1,0 +1,4 @@
+This is the first lecture on Unix, BioUnix
+By Mr. Ezinga Richard
+
+Class date: 16th. arch. 2025

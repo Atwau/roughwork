@@ -1,0 +1,43 @@
+Learning variant calling for *Mycobacterium tuberculosis* (MTB) requires datasets that exhibit both high-quality sequencing and known phenotypic traits (like drug resistance). 
+
+Here are the best resources and datasets for learning the MTB variant calling workflow.
+
+## 1. Top Datasets for Practice
+To learn variant calling, you need **FastQ** files (raw reads) and a **Reference Genome** (usually H37Rv).
+
+| Dataset Source | Why it's good for learning | Link/Accession |
+| :--- | :--- | :--- |
+| **Galaxy Training Network (GTN)** | Provides a "curated" small dataset specifically for a step-by-step tutorial on MTB variant analysis. | [MTB Variant Analysis Tutorial](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html) |
+| **Comprehensive Resistance Prediction (CRyPTIC)** | One of the largest MTB datasets in the world. Great for seeing real-world variation and drug resistance. | [CRyPTIC Data Portal](http://cryptic.ox.ac.uk/) |
+| **NCBI SRA (H37Rv)** | The gold standard reference strain. Use this to practice "re-sequencing" or calling variants against itself to check for false positives. | [NCBI SRA: NC_000962.3](https://www.ncbi.nlm.nih.gov/sra/?term=Mycobacterium+tuberculosis+H37Rv) |
+
+---
+
+## 2. The Standard Reference Genome
+For almost all MTB variant calling, you must map your reads to the **H37Rv** strain. 
+* **NCBI Accession:** `NC_000962.3`
+* **Size:** ~4.4 million base pairs.
+* **GC Content:** ~65.6% (high GC content is a key challenge in MTB variant calling).
+
+---
+
+## 3. Recommended Learning Workflow
+If you are building your own pipeline, follow these standard steps:
+
+1.  **Quality Control:** Use `FastQC` and `MultiQC` to check the raw data quality.
+2.  **Trimming:** Use `Trimmomatic` or `fastp` to remove adapters and low-quality bases.
+3.  **Mapping:** Use `BWA-MEM` to align reads to the H37Rv reference.
+4.  **Post-Processing:** Use `Samtools` to sort and index the resulting BAM file.
+5.  **Variant Calling:** * **SNP/Indel Calling:** Use `BCFtools`, `FreeBayes`, or `GATK HaplotypeCaller`.
+    * **MTB-Specific Tools:** Try **MTBseq**, which is a specialized pipeline that handles the unique features of the MTB genome (like repetitive PE/PPE genes).
+
+
+
+---
+
+## 4. Specific Genes to Watch
+When learning, check your variant calls against these genes where mutations are known to cause drug resistance:
+* **katG / inhA:** Isoniazid resistance.
+* **rpoB:** Rifampicin resistance (specifically the "RRDR" region).
+* **pncA:** Pyrazinamide resistance.
+* **gyrA:** Fluoroquinolone resistance.

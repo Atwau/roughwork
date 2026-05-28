@@ -1,0 +1,110 @@
+# ==============================================================================
+# 1. NEXTFLOW & PIPELINE ARTIFACTS (The main culprits for size)
+# ==============================================================================
+.nextflow/
+.nextflow.log*
+work/
+results/
+output/
+pipeline_info/
+null/
+
+# ==============================================================================
+# 2. RAW DATA, ALIGNMENTS, & BIOLOGICAL INTERMEDIATES
+# ==============================================================================
+# Raw sequencing & accessions
+data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.fasta
+*.fa
+
+# Alignment & variant calling map files
+*.sam
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.bcf
+
+# Indexing & alignment sub-files
+*.amb
+*.ann
+*.bwt
+*.fai
+*.pac
+*.sa
+*.aln
+*.bed
+*.gtf
+*.wig
+
+# Phylogenetics & Tree outputs
+*.phy
+*.varsites.phy
+*.contree
+*.treefile
+*.model.gz
+*.parstree
+*.mldist
+
+# Structural biology & visualization
+*.pdb
+*.pdbx
+*.pml
+
+# ==============================================================================
+# 3. ENVIRONMENTS & THIRD-PARTY BUILD ARTIFACTS
+# ==============================================================================
+conda/
+.env/
+venv/
+pip-log.txt
+node_modules/
+package-lock.json
+package.json
+tsconfig.json
+tslint.json
+*.map
+
+# ==============================================================================
+# 4. REPORTING, METADATA, & DOCUMENTATION
+# ==============================================================================
+*_fastqc.zip
+*.html
+*.zip
+*.log
+*.pdf
+*.png
+*.svg
+*.json
+*.odt
+*.xlsx
+*.ipynb
+*.cwl
+*.metainfo.xml
+NC_*
+GPC_*
+
+# ==============================================================================
+# 5. OS, EDITOR JUNK, & SECURITY
+# ==============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.pem
+Makefile
+*.outlang
+*.style
+*.lang
+
+# ==============================================================================
+# 6. SCRIPT PROTECTION (Safely scoped)
+# ==============================================================================
+# Explicitly track scripts in the repository root or standard subfolders, 
+# without overriding completely ignored directories like work/ or conda/
+*.sh
+*.py

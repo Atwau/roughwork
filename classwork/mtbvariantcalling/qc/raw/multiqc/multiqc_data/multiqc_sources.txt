@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR28515580_1	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR28515580_1_fastqc.zip
+FastQC	all_sections	SRR28515580_2	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR28515580_2_fastqc.zip
+FastQC	all_sections	SRR34502717_1	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR34502717_1_fastqc.zip
+FastQC	all_sections	SRR34502717_2	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR34502717_2_fastqc.zip
+FastQC	all_sections	SRR35497378_1	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR35497378_1_fastqc.zip
+FastQC	all_sections	SRR35497378_2	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR35497378_2_fastqc.zip
+FastQC	all_sections	SRR35891567_1	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR35891567_1_fastqc.zip
+FastQC	all_sections	SRR35891567_2	/home/atwau/classwork/mtbvariantcalling/qc/raw/fastqc/SRR35891567_2_fastqc.zip

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+TrimmomaticSE \  # run trimmomatic single end read
+-threads 4 \  # use 4 CPU cores, you can adjust this whenever needed
+../data/SRR390728.fastq.gz \ # your input file
+trimmed/SRR390728_trimmed.fastq.gz \ # where your output will be
+ILLUMINACLIP:/usr/share/trimmomatic/TruSeq3-SE.fa:2:30:10 \ # used built in TruSeq-3-SE adapter
+LEADING:3 \ # remove low quality bases at ends
+TRAILING:3 \ # remove low quality bases at ends
+SLIDINGWINDOW:4:15 \ # Trim when average quality drops below 15
+MINLEN:36 # length filtering; discard reads shorter than 36 bp after trimming
