@@ -1,5 +1,5 @@
 # ==============================================================================
-# 1. NEXTFLOW & PIPELINE ARTIFACTS (The main culprits for size)
+# 1. NEXTFLOW & PIPELINE ARTIFACTS
 # ==============================================================================
 .nextflow/
 .nextflow.log*
@@ -22,15 +22,9 @@ data/
 *.fasta
 *.fa
 
-# Alignment & variant calling map files
-*.sam
-*.bam
-*.bai
-*.vcf
-*.vcf.gz
-*.bcf
-
-# Indexing & alignment sub-files
+# Reference genomes & indexing sub-files
+NC_*
+GPC_*
 *.amb
 *.ann
 *.bwt
@@ -41,6 +35,14 @@ data/
 *.bed
 *.gtf
 *.wig
+
+# Alignment & variant calling outputs
+*.sam
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.bcf
 
 # Phylogenetics & Tree outputs
 *.phy
@@ -86,8 +88,6 @@ tslint.json
 *.ipynb
 *.cwl
 *.metainfo.xml
-NC_*
-GPC_*
 
 # ==============================================================================
 # 5. OS, EDITOR JUNK, & SECURITY
@@ -102,9 +102,7 @@ Makefile
 *.lang
 
 # ==============================================================================
-# 6. SCRIPT PROTECTION (Safely scoped)
+# 6. SCRIPT PROTECTION
 # ==============================================================================
-# Explicitly track scripts in the repository root or standard subfolders, 
-# without overriding completely ignored directories like work/ or conda/
 *.sh
 *.py
