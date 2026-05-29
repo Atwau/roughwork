@@ -1,0 +1,18 @@
+# Primary Barriers to BDBV Vaccine Development
+
+## Species-Specific Protection Limits: 
+#* Licensed vaccines currently exist for Zaire ebolavirus, and active development is underway
+for Sudan virus and Marburg virus candidates. However, scientific evidence indicates that protection
+is highly species-specific. Any potential cross-protection offered by these existing vaccines against
+BDBV remains highly uncertain and is insufficiently demonstrated to rely upon for outbreak control.  
+
+## Absence of a Commercial Market:
+#* Bundibugyo ebolavirus disease is geographically confined to Africa. Because there is no established
+commercial market for vaccines against this specific virus, vaccine developers face immense economic 
+uncertainty, which historically stalls long-term discovery and production pipelines.
+
+## Lag in Clinical Advancement:
+#* Despite broader advancements in filovirus countermeasures over the last decade, BDBV research has
+significantly lagged behind. Prior to recent accelerated funding calls, no BDBV-specific vaccine
+candidate had ever advanced into Phase 1 clinical evaluation, leaving a severe gap in critical preclinical,
+translational, and manufacturing data.  
