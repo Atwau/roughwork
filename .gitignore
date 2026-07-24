@@ -21,6 +21,7 @@ data/
 *.sra
 *.fasta
 *.fa
+*.fna
 
 # Reference genomes & indexing sub-files
 NC_*
@@ -43,6 +44,9 @@ GPC_*
 *.vcf
 *.vcf.gz
 *.bcf
+*.csi
+*.tbi
+*.bin
 
 # Phylogenetics & Tree outputs
 *.phy
@@ -88,6 +92,7 @@ tslint.json
 *.ipynb
 *.cwl
 *.metainfo.xml
+quast_results/
 
 # ==============================================================================
 # 5. OS, EDITOR JUNK, & SECURITY
@@ -100,6 +105,7 @@ Makefile
 *.outlang
 *.style
 *.lang
+:Zone.Identifier
 
 # ==============================================================================
 # 6. SCRIPT PROTECTION
@@ -107,3 +113,4 @@ Makefile
 !*.sh
 !*.R
 !*.nf
+```[cite: 2]
