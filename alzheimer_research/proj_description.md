@@ -1,7 +1,11 @@
-Alzheimer Disease Research
-Author: Dr. Atwau Pius
-Year: Start Aug 4, 2026
+# Alzheimer Disease Research Project
 
-Projects:
-1. DRY LAB: VALIDATION OF BLOOD-BASED ALZHEIMER'S DISEASE BIOMARKERS IN EAST AFRICAN POPULATIONS: 
-A MULTI-OMICS INTEGRATION AND MACHINE LEARNING APPROACH USING EXISTING PUBLIC DATA
+**Author:** Dr. Atwau Pius  
+**Start Date:** August 4, 2026  
+
+---
+
+## Projects
+
+### Dry Lab
+**Title:** Validation of Blood-Based Alzheimer's Disease Biomarkers in East African Populations: A Multi-Omics Integration and Machine Learning Approach Using Existing Public Data
