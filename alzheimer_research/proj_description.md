@@ -1,7 +1,7 @@
 # Alzheimer Disease Research Project
 
 **Author:** Dr. Atwau Pius  
-**Start Date:** August 4, 2026  
+**Start Date:** August 1, 2026  
 
 
 ## Projects
