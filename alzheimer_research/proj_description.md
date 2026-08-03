@@ -12,4 +12,4 @@
 ## Resources
 
 ### Data 
-1. (The Alzheimer Disease Sequencing Project)[https://adseq.org/data-overview]
+1. [The Alzheimer Disease Sequencing Project](https://adseq.org/data-overview)
